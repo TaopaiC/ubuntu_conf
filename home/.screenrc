@@ -1,0 +1,64 @@
+bind ^t screen //telnet
+shelltitle "$ |bash"
+defscrollback 1000
+# ===============================================================
+# Messages
+# ===============================================================
+# There are two kinds of messages:  "activity" and "bell"
+# They are also the names of the commands that set the
+# respective messages.  In every message there can be "meta
+# strings" which are replaced by values.  A meta string starts
+# with a percent sign and is then followed by one of the
+# following letters: aAdDmMnstwWyY The meta strings refer to
+# the current date and time or to a window title or number:
+#   %t - title
+#   %n - number (a single % still works)
+#   %d - day
+#   %D - weekday name
+#   %m - month
+#   %M - month name
+#   %y - year (2 digit)
+#   %Y - year (4 digit)
+#   %w - hour:minutes (24h format)
+#   %W - hour:minutes (12h format)
+#   %s - seconds
+#   %a - am/pm
+#   %A - AM/PM
+# Older versions of screen used a single '%' character
+# for window titles - but since version 3.7 this is
+# obsoleted by '%n' and will vanish in future releases!
+# So please update your screenrc to meet this convention!
+#
+# ===============================================================
+# "~" stands for the "bell" character
+#
+# activity:     This message *includes* a "beep" with '~'.
+  activity              "activity in %n (%t) [%c:%s]~"
+#
+# bell:         This message *includes* a "beep" with '~'.
+  bell                  "bell in %n (%t) [%c:%s]~"
+#
+# pow_detach_msg:       Message shown when session
+#                       gets power detached.
+  pow_detach_msg        "BYE"
+#
+# vbell_msg:            Message shown when the
+#                       "virtual bell" rings.
+  vbell_msg             " *beep* "
+
+#  defhstatus            always
+  hardstatus            off
+#  hardstatus lastline '%{= WK}%-Lw%{BW}%50L>%n%f* %t%{-}%+Lw%-25=%{MR}<%{.W} %H %{.R}>%{KM} %m%d%D%0C %{WK}'
+#  caption always '%{= WK}%-Lw%{BW}%50L>%n%f* %t%{-}%+Lw%-25=%{MR}<%{.W} %H %{.R}>%{KM} %m%d%D%0C %{WK}'
+  caption always '%{= WK}%-Lw%{BW}%50L>%n%f* %t%{-}%+Lw%-30=%{MR}<%{.W} %H %{.R}>%{KM} %m%d%C %{WK}'
+
+  idle 600  lockscreen
+#  termcapinfo xterm* 'mb=\E[5m:md=\E[1m:me=\E[m:mr=\E[7m'
+#  termcapinfo xterm ti@:te@
+
+defutf8 on
+defencoding UTF-8
+#encoding Big5 UTF-8
+bind b encoding Big5 UTF-8
+bind u encoding UTF-8 UTF-8
+#cjkwidth
