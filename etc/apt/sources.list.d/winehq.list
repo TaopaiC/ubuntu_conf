@@ -1,0 +1,4 @@
+# wget -q http://wine.budgetdedicated.com/apt/387EE263.gpg -O- | sudo apt-key add -
+deb http://wine.budgetdedicated.com/apt gutsy main #WineHQ - Ubuntu 7.10 "Gutsy Gibbon"
+deb-src http://wine.budgetdedicated.com/apt gutsy main #WineHQ - Ubuntu 7.10 "Gutsy Gibbon"
+

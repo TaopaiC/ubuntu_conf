@@ -1,0 +1,3 @@
+# deb http://users.musicbrainz.org/~luks/ubuntu dapper main
+# deb http://ftp.musicbrainz.org/pub/musicbrainz/users/luks/ubuntu edgy musicbrainz
+deb http://ftp.musicbrainz.org/pub/musicbrainz/users/luks/ubuntu feisty musicbrainz

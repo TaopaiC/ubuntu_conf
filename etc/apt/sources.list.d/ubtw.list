@@ -1,0 +1,5 @@
+# ubtw
+# deb http://apt.ubuntu.org.tw ubtw/
+# deb http://apt.ubuntu.org.tw ubtw-dapper/
+# deb http://apt.ubuntu.org.tw ubtw-testing/
+

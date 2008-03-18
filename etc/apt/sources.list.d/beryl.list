@@ -1,0 +1,12 @@
+# svn snapshot
+# deb http://3v1n0.tuxfamily.org edgy beryl-svn
+# wget http://download.tuxfamily.org/3v1deb/DD800CD9.gpg -O- | sudo apt-key add -
+# deb http://download.tuxfamily.org/3v1deb edgy beryl-svn
+# deb-src http://download.tuxfamily.org/3v1deb edgy beryl-svn
+
+# wget http://ubuntu.beryl-project.org/root@lupine.me.uk.gpg -O- | sudo apt-key add -
+# deb http://ubuntu.beryl-project.org feisty main
+# deb-src http://ubuntu.beryl-project.org feisty main
+
+
+## deb http://download.tuxfamily.org/3v1deb feisty eyecandy

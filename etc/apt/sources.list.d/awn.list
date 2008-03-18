@@ -1,0 +1,10 @@
+# wget ubuntu.schmidtke-hb.de/aptrepository.asc
+# sudo apt-key add aptrepository.asc
+## deb http://apt.schmidtke-hb.de/ feisty main
+## deb-src http://apt.schmidtke-hb.de/ feisty main
+
+## Avant Window Navigator
+deb http://download.tuxfamily.org/syzygy42/ feisty avant-window-navigator
+deb-src http://download.tuxfamily.org/syzygy42/ feisty avant-window-navigator
+deb http://download.tuxfamily.org/syzygy42/ gutsy avant-window-navigator
+deb-src http://download.tuxfamily.org/syzygy42/ gutsy avant-window-navigator

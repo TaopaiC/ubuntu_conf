@@ -1,0 +1,5 @@
+# gpg --keyserver subkeys.pgp.net --recv-keys 9B1DB022
+# gpg --export --armor 9B1DB022 | sudo apt-key add -
+# Eternity Screensaver
+deb http://ppa.launchpad.net/eternity/ubuntu gutsy main
+deb-src http://ppa.launchpad.net/eternity/ubuntu gutsy main

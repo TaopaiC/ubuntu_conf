@@ -1,0 +1,5 @@
+## Medibuntu - Ubuntu 7.04 "feisty fawn"
+## Please report any bug on https://launchpad.net/products/medibuntu/+bugs
+deb http://packages.medibuntu.org/ gutsy free non-free
+# deb http://packages.medibuntu.org/ feisty free non-free
+# deb-src http://packages.medibuntu.org/ feisty free non-free

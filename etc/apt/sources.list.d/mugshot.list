@@ -1,0 +1,3 @@
+deb http://www.nighton.net/ hardy main
+#deb http://www.nighton.net/ gutsy main
+#deb-src http://www.nighton.net/ gutsy main
