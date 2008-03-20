@@ -1,13 +1,2 @@
-echo ".xprofile" >> ~/t
 export VTE_CJK_WIDTH=1
-
-#TMPdir="/tmp/$USER"
-#
-#if [ ! -e $TMPdir ]; then
-#	mkdir $TMPdir
-#fi
-#
-#export TMP=$TMPdir
-#export TMPDIR=$TMPdir
-
 export LIBXCB_ALLOW_SLOPPY_LOCK="1"
