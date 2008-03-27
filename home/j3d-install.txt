@@ -1,0 +1,2 @@
+cd /usr/lib/jvm/java-6-sun/jre
+sudo unzip /tmp/java3d-1_5_1-linux-i586/j3d-jre.zip
