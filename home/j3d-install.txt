@@ -1,2 +1,7 @@
+FILE=java3d-1_5_1-linux-i586
+cd /tmp
+wget http://download.java.net/media/java3d/builds/release/1.5.1/$FILE.zip
+unzip $FILE.zip
 cd /usr/lib/jvm/java-6-sun/jre
-sudo unzip /tmp/java3d-1_5_1-linux-i586/j3d-jre.zip
+pwd
+sudo unzip /tmp/$FILE/j3d-jre.zip
