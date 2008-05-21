@@ -1,3 +1,3 @@
 # wget -q http://wine.budgetdedicated.com/apt/387EE263.gpg -O- | sudo apt-key add -
 deb http://wine.budgetdedicated.com/apt hardy main #WineHQ - Ubuntu 8.04 "Hardy Heron"
-#deb-src http://wine.budgetdedicated.com/apt hardy main #WineHQ - Ubuntu 8.04 "Hardy Heron"
+# deb-src http://wine.budgetdedicated.com/apt hardy main #WineHQ - Ubuntu 8.04 "Hardy Heron"
