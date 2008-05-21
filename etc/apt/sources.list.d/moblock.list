@@ -1,5 +1,5 @@
 # gpg --keyserver wwwkeys.eu.pgp.net --recv 9072870B
 # gpg --export --armor 9072870B | sudo apt-key add -
 
-deb http://moblock-deb.sourceforge.net/debian gutsy main
-deb-src http://moblock-deb.sourceforge.net/debian gutsy main
+deb http://moblock-deb.sourceforge.net/debian hardy main
+deb-src http://moblock-deb.sourceforge.net/debian hardy main
