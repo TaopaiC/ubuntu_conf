@@ -1,2 +1,0 @@
-#  wget http://www.virtualbox.org/debian/innotek.asc -O - | sudo apt-key add -
-deb http://www.virtualbox.org/debian gutsy non-free
