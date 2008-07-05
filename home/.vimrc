@@ -45,7 +45,12 @@ set ffs=unix,dos
 set ff=unix
 set background=dark
 set guifont=Lucida\ Sans\ Typewriter\ 16
-colo elflord
+"colo elflord
+highlight Comment ctermfg=DarkCyan
+highlight SpecialKey ctermfg=Yellow
+highlight Normal guifg=#ffffff guibg=#000000
+highlight Search ctermfg=Black
+
 
 " if $TERM == "screen"
 " " set title
