@@ -14,13 +14,39 @@
 # again, run the following command:
 #   sudo dpkg-reconfigure -phigh xserver-xorg
 
-Section "Files"
-	# path to defoma fonts
-	Fontpath	"/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType"
+Section "Screen"
+	Identifier	"Default Screen"
+	Device		"nVidia Corporation NV43 [GeForce 6600]"
+	Monitor		"VX912"
+	Option		"TwinView"
+	Option		"MetaModes"	"1280x1024,1280x1024; 1280x1024; 1024x768,1024x768; 1024x768; 800x600,800x600; 800x600"
+	Option		"TwinViewOrientation"	"LeftOf"
+	Option		"SecondMonitorHorizSync"	"UseEdidFreqs"
+	Option		"SecondMonitorVertRefresh"	"UseEdidFreqs"
+	Option		"AddARGBGLXVisuals"	"True"
+	SubSection "Display"
+		Viewport	0	0
+		Depth	24
+		Modes		"1280x1024@60"	"1024x768@60"	"800x600@60"	"640x480@60"
+	EndSubSection
+	SubSection "Display"
+		Viewport	0	0
+		Depth	32
+		Modes		"1280x1024@60"	"1024x768@60"	"800x600@60"	"640x480@60"
+	EndSubSection
+	Defaultdepth	24
 EndSection
 
-Section "Module"
-	Load		"glx"
+Section "Device"
+	#other options I recommend:
+	#  Option	"AllowGLXWithComposite"
+	#  Option	"TripleBuffer" "true"
+	# Enable 32-bit ARGB GLX Visuals
+	Identifier	"NVIDIA Corporation NV43 [GeForce 6600]"
+	Driver		"nvidia"
+	Vendorname	"NVIDIA"
+	Screen	0
+	Option		"AddARGBVisuals"	"True"
 EndSection
 
 Section "InputDevice"
@@ -67,6 +93,21 @@ Section "InputDevice"
 	Option		"ForceDevice"	"ISDV4"# Tablet PC ONLY
 EndSection
 
+Section "ServerLayout"
+	Identifier	"Default Layout"
+  screen 0 "Default Screen" 0 0
+	Inputdevice	"Generic Keyboard"
+	Inputdevice	"Configured Mouse"
+	Inputdevice	"stylus"	"SendCoreEvents"
+	Inputdevice	"cursor"	"SendCoreEvents"
+	Inputdevice	"eraser"	"SendCoreEvents"
+	Option		"Xinerama"	"false"
+EndSection
+
+Section "Module"
+	Load		"glx"
+EndSection
+
 Section "Monitor"
 	Identifier	"VX912"
 	Vendorname	"Plug 'n' Play"
@@ -79,51 +120,12 @@ Section "Monitor"
 	Option		"DPMS"
 EndSection
 
-Section "Device"
-	
-	#other options I recommend:
-	#  Option	"AllowGLXWithComposite"
-	#  Option	"TripleBuffer" "true"
-	# Enable 32-bit ARGB GLX Visuals
-	Identifier	"NVIDIA Corporation NV43 [GeForce 6600]"
-	Driver		"nvidia"
-	Vendorname	"NVIDIA"
-	Screen	0
-	Option		"AddARGBVisuals"	"True"
-	Option		"AddARGBGLXVisuals"	"True"
+Section "Extensions"
+	Option		"Composite"	"Enable"
 EndSection
 
-Section "Screen"
-	Identifier	"Default Screen"
-	Device		"nVidia Corporation NV43 [GeForce 6600]"
-	Monitor		"VX912"
-	Defaultdepth	24
-	Option		"TwinView"
-	Option		"MetaModes"	"1280x1024,1280x1024; 1280x1024; 1024x768,1024x768; 1024x768; 800x600,800x600; 800x600"
-	Option		"TwinViewOrientation"	"LeftOf"
-	Option		"SecondMonitorHorizSync"	"UseEdidFreqs"
-	Option		"SecondMonitorVertRefresh"	"UseEdidFreqs"
-	SubSection "Display"
-		Viewport	0	0
-		Depth	24
-		Modes		"1280x1024@60"	"1024x768@60"	"800x600@60"	"640x480@60"
-	EndSubSection
-	SubSection "Display"
-		Viewport	0	0
-		Depth	32
-		Modes		"1280x1024@60"	"1024x768@60"	"800x600@60"	"640x480@60"
-	EndSubSection
+Section "Files"
+	# path to defoma fonts
+	Fontpath	"/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType"
 EndSection
-
-Section "ServerLayout"
-	Identifier	"Default Layout"
-  screen 0 "Default Screen" 0 0
-	Inputdevice	"Generic Keyboard"
-	Inputdevice	"Configured Mouse"
-	Inputdevice	"stylus"	"SendCoreEvents"
-	Inputdevice	"cursor"	"SendCoreEvents"
-	Inputdevice	"eraser"	"SendCoreEvents"
-	Option		"Xinerama"	"false"
-EndSection
-
 
