@@ -1,0 +1,5 @@
+# wget -q http://apt.last.fm/last.fm.repo.gpg -O- | sudo apt-key add -
+# Stable:
+# deb http://apt.last.fm/ debian stable
+# Testing:
+deb http://apt.last.fm/ debian testing
