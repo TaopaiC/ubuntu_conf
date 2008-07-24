@@ -1,0 +1,1 @@
+install usbhid  /sbin/modprobe lmpcm_usb; /sbin/modprobe --ignore-install usbhid

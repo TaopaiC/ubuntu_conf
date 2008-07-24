@@ -1,0 +1,36 @@
+# first
+nvidia-glx-177 subversion vim vim-gnome
+
+
+# system
+nvidia-glx-177 gparted smartmontools ntp smbfs apt-listchanges samba
+# app
+liferea
+
+# media
+ubuntu-restricted-extras smplayer vlc lastfm amarok camorama
+digiKam inkscape comix agave
+# https://help.ubuntu.com/community/RestrictedFormats/PlayingDVDs
+
+# app
+pidgin-guifications bluefish
+
+# app2
+tvtime amarok
+
+
+# config
+.bash_aliases .bashrc .fonts .fonts.conf .tomboy .vimrc
+
+# app 2
+tvtime amarok 
+
+# media
+gstreamer0.10-ffmpeg gstreamer0.10-pitfdll gstreamer0.10-plugins-bad gstreamer0.10-plugins-bad-multiverse gstreamer0.10-plugins-ugly gstreamer0.10-plugins-ugly-multiverse gxine libxine-main1 libxine-extracodecs ogle ogle-gui
+
+# dvd
+libdvdread3
+sudo  /usr/share/doc/libdvdread3/install-css.sh
+
+# awn
+libdbus-glib-1-dev libgnome-desktop-dev 
