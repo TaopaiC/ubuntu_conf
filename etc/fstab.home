@@ -2,22 +2,24 @@
 #
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
 proc            /proc           proc    defaults        0       0
-# /dev/sda6
-UUID=4a531325-8b96-4ac7-af31-30ce458b1e75 /               ext3    defaults,errors=remount-ro 0       1
 # /dev/sda5
-UUID=a5993d81-12f0-4381-9711-008d9bd5ce01 /boot           ext3    defaults        0       2
+UUID=39b52457-f646-40f0-aa3d-2d8d08caa9df /               ext3    relatime,errors=remount-ro 0       1
+# /dev/sda6
+UUID=53204914-c5b6-4202-b5f9-b35b5322b92d /boot           ext3    relatime        0       2
+# /dev/sda9
+UUID=aed16a9c-cf26-49a9-9d6c-93f5b1180f01 /home           xfs     relatime        0       2
 # /dev/sda10
-UUID=4d73b364-f282-4c26-8558-47a3e643cd59 /home           reiserfs defaults       0       2
+UUID=8e0b077e-f043-44f2-aa35-0a946b8563d2 /usr            xfs     relatime        0       2
+# /dev/sda11
+UUID=866eda8b-9586-4fd9-b0a8-1fa7ac9cc247 /usr2           xfs     relatime        0       2
+# /dev/sda8
+UUID=4a5c011c-d6d5-4013-af2d-0f036042932e /var            xfs     relatime        0       2
+# /dev/sda7
+UUID=24de64bc-f216-42cb-acc3-cd19c0fad145 none            swap    sw              0       0
+/dev/scd0       /media/cdrom0   udf,iso9660 user,noauto,exec,utf8 0       0
+
 # /dev/sda3
 UUID=a102c023-69ec-4e0f-951e-9f0764d20231 /home/backup    ext3    defaults        0       2
-# /dev/sda9
-UUID=7e0fecf6-05f9-4d2a-9891-c05cfbef7dad /usr            reiserfs defaults       0       2
-# /dev/sda11
-UUID=811a255c-716d-40d6-a84a-866c4d3fc65c /usr2           reiserfs defaults       0       2
-# /dev/sda8
-UUID=9078a07c-b48b-4e02-be19-6f6f7884fdfc /var            ext3    defaults        0       2
-# /dev/sda7
-UUID=d12f1147-fbec-4fdb-887a-25ba2cc58a8c none            swap    sw              0       0
 
 # /dev/sdb1
 UUID=043c798b-cc32-4671-9301-4350a70282fe /media/sdb1     ext3 defaults,noauto    0       2
