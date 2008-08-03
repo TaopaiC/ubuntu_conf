@@ -1,5 +1,5 @@
-# wget ubuntu.schmidtke-hb.de/aptrepository.asc
-# sudo apt-key add aptrepository.asc
+## wget ubuntu.schmidtke-hb.de/aptrepository.asc
+## sudo apt-key add aptrepository.asc
 ## deb http://apt.schmidtke-hb.de/ feisty main
 ## deb-src http://apt.schmidtke-hb.de/ feisty main
 
@@ -13,7 +13,9 @@
 deb http://ppa.launchpad.net/reacocard-awn/ubuntu hardy main
 deb-src http://ppa.launchpad.net/reacocard-awn/ubuntu hardy main
 #
-deb http://ppa.launchpad.net/awn-testing/ubuntu hardy main
-deb-src http://ppa.launchpad.net/awn-testing/ubuntu hardy main
+# deb http://ppa.launchpad.net/awn-testing/ubuntu hardy main
+# deb-src http://ppa.launchpad.net/awn-testing/ubuntu hardy main
 #
+deb http://ppa.launchpad.net/awn-testing/ubuntu intrepid main
+deb-src http://ppa.launchpad.net/awn-testing/ubuntu intrepid main
 #deb http://ppa.launchpad.net/awn-core/ubuntu hardy main #AWN

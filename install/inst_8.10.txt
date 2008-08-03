@@ -10,7 +10,10 @@ liferea
 # media
 ubuntu-restricted-extras smplayer vlc lastfm amarok camorama
 digiKam inkscape comix agave
+libmp4v2-0 faac faad libmp4v2-0 non-free-codecs sun-java6-fonts
 # https://help.ubuntu.com/community/RestrictedFormats/PlayingDVDs
+# for soundKonvert (KDE)
+soundkonverter aacplusenc alac-decoder cdparanoia ffmpeg flac lame vorbis-tools
 
 # app
 pidgin-guifications bluefish
