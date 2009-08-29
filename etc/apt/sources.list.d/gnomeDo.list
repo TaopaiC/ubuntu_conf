@@ -1,2 +1,2 @@
-deb http://ppa.launchpad.net/do-core/ubuntu gutsy main
-deb-src http://ppa.launchpad.net/do-core/ubuntu gutsy main
+deb http://ppa.launchpad.net/do-core/ubuntu karmic main
+deb-src http://ppa.launchpad.net/do-core/ubuntu karmic main

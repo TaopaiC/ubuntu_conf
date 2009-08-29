@@ -1,0 +1,3 @@
+# wget -q http://shutter-project.org/shutter-ppa.key -O- | sudo apt-key add -
+deb http://ppa.launchpad.net/shutter/ppa/ubuntu karmic main
+deb-src http://ppa.launchpad.net/shutter/ppa/ubuntu karmic main

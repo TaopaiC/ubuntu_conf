@@ -1,6 +1,9 @@
-## Medibuntu - Ubuntu 7.04 "feisty fawn"
-## Please report any bug on https://launchpad.net/products/medibuntu/+bugs
-deb http://packages.medibuntu.org/ hardy free non-free
+## Medibuntu - Ubuntu 9.04 "jaunty jackalope"
+## Please report any bug on https://bugs.launchpad.net/medibuntu/
+deb http://packages.medibuntu.org/ karmic non-free free
+deb-src http://packages.medibuntu.org/ karmic free non-free
+# deb http://packages.medibuntu.org/ jaunty non-free free
+# deb http://packages.medibuntu.org/ hardy free non-free
 # deb http://packages.medibuntu.org/ gutsy free non-free
 # deb http://packages.medibuntu.org/ feisty free non-free
 # deb-src http://packages.medibuntu.org/ feisty free non-free

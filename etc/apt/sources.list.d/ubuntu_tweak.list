@@ -1,2 +1,4 @@
-deb http://ppa.launchpad.net/tualatrix/ubuntu hardy main #Ubuntu Tweak
+# sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com FE85409EEAB40ECCB65740816AF0E1940624A220
+deb http://ppa.launchpad.net/tualatrix/ubuntu jaunty main # Ubuntu Tweak
+deb-src http://ppa.launchpad.net/tualatrix/ubuntu jaunty main # Ubuntu Tweak
 
