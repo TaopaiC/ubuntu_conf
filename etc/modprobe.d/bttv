@@ -1,1 +1,1 @@
-options bttv card=70 tuner=17
+options bttv card=70 tuner=17 pll=1 adc_crush=0

@@ -29,13 +29,17 @@ UUID=040839af-adfd-4502-8bdb-d1c18ebffd14 /media/sdb3     reiserfs defaults     
 UUID=14e901d2-d858-4f9a-a8a2-fdb37a14bc74 /media/pool     reiserfs defaults       0       2
 
 # WD 500G AACS
-UUID=7647b182-9191-4b98-a4c2-0db1981637ec /media/storage  xfs defaults,noauto     0       0
+UUID=7647b182-9191-4b98-a4c2-0db1981637ec /media/storage  xfs defaults,noauto,user,noatime     0       0
 # WD 500G AAKS
-UUID=cd224e0a-c93f-41fe-aaa2-5f8cffe1a593 /media/storage2 xfs defaults,noauto     0       0
+UUID=cd224e0a-c93f-41fe-aaa2-5f8cffe1a593 /media/storage2 xfs defaults,noauto,user,noatime     0       0
 # WD 640G AAKS #1
-UUID=9a506752-5cb7-4e8d-8428-a9f4cec10f4f /media/storage3 xfs defaults,noauto     0       0
+UUID=9a506752-5cb7-4e8d-8428-a9f4cec10f4f /media/storage3 xfs defaults,noauto,user,noatime     0       0
 # WD 640G AAKS #2
-UUID=fa183f5e-0eda-4ac9-9353-3735b4065532 /media/storage4 xfs defaults,noauto     0       0
+UUID=fa183f5e-0eda-4ac9-9353-3735b4065532 /media/storage4 xfs defaults,noauto,user,noatime     0       0
+# WD 640G AAKS #1
+UUID=930044f9-aaa0-44f1-b6e8-e899a3d02c65 /media/storage5 xfs defaults,noauto,user,noatime     0       0
+# WD 640G AAKS #2
+UUID=bfa202bd-cb61-4150-bd5d-1df3dd0fd38d /media/storage6 xfs defaults,noauto,user,noatime     0       0
 
 # tmpfs
 tmpfs            /tmp            tmpfs        rw              0       0
