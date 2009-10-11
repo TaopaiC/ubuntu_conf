@@ -1,3 +1,4 @@
 # wget -q http://download.virtualbox.org/virtualbox/debian/sun_vbox.asc -O- | sudo apt-key add -
-deb http://download.virtualbox.org/virtualbox/debian jaunty non-free
+deb http://download.virtualbox.org/virtualbox/debian karmic non-free
+# deb http://download.virtualbox.org/virtualbox/debian jaunty non-free
 # deb http://download.virtualbox.org/virtualbox/debian intrepid non-free
