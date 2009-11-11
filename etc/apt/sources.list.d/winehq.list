@@ -1,3 +1,0 @@
-# wget -q http://wine.budgetdedicated.com/apt/387EE263.gpg -O- | sudo apt-key add -
-deb http://wine.budgetdedicated.com/apt jaunty main #WineHQ
-deb-src http://wine.budgetdedicated.com/apt jaunty main #WineHQ
