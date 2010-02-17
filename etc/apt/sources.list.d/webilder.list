@@ -1,2 +1,2 @@
-deb http://debian.websterwood.com/ intrepid main
-deb-src http://debian.websterwood.com/ intrepid main
+# deb http://debian.websterwood.com/ intrepid main
+# deb-src http://debian.websterwood.com/ intrepid main
