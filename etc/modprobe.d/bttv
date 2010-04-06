@@ -1,1 +1,9 @@
+# i2c
+alias char-major-89 i2c-devb
+options i2c-algo-bit bit_test=1
+# # bttv
+alias char-major-81 videodev
+alias char-major-81-0 bttv
+# # My TV Card
+# options bttv card=16 tuner=5 radio=0 pll=1 adc_crush=0
 options bttv card=70 tuner=17 pll=1 adc_crush=0
