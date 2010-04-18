@@ -1,2 +1,1 @@
-deb http://linux.dropbox.com/ubuntu karmic main
-deb-src http://linux.dropbox.com/ubuntu karmic main
+deb http://linux.dropbox.com/ubuntu lucid main
