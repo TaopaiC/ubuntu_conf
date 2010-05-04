@@ -1,2 +1,2 @@
-deb http://ppa.launchpad.net/cdemu/ubuntu karmic main
-deb-src http://ppa.launchpad.net/cdemu/ubuntu karmic main
+deb http://ppa.launchpad.net/cdemu/ubuntu lucid main
+deb-src http://ppa.launchpad.net/cdemu/ubuntu lucid main
