@@ -1,0 +1,2 @@
+# wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+deb http://archive.getdeb.net/ubuntu maverick-getdeb apps
