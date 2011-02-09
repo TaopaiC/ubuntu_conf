@@ -1,2 +1,2 @@
-deb http://ppa.launchpad.net/msn-pecan/ubuntu lucid main
-deb-src http://ppa.launchpad.net/msn-pecan/ubuntu lucid main
+# deb http://ppa.launchpad.net/msn-pecan/ubuntu lucid main # 停用升級至 natty
+# deb-src http://ppa.launchpad.net/msn-pecan/ubuntu lucid main # 停用升級至 natty

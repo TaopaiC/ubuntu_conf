@@ -1,1 +1,1 @@
-deb http://ppa.launchpad.net/tracker-team/tracker-unstable/ubuntu maverick main
+# deb http://ppa.launchpad.net/tracker-team/tracker-unstable/ubuntu natty main # 停用升級至 natty

@@ -1,1 +1,1 @@
-deb http://ppa.launchpad.net/opensource-subakutty/ppa/ubuntu karmic main
+# deb http://ppa.launchpad.net/opensource-subakutty/ppa/ubuntu karmic main # 停用升級至 natty

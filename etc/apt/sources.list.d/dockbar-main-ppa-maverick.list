@@ -1,1 +1,1 @@
-deb http://ppa.launchpad.net/dockbar-main/ppa/ubuntu maverick main
+# deb http://ppa.launchpad.net/dockbar-main/ppa/ubuntu natty main # 停用升級至 natty

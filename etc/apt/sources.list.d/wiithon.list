@@ -1,2 +1,2 @@
 #sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1F882273
-deb http://ppa.launchpad.net/wii.sceners.linux/wiithon/ubuntu karmic main
+# deb http://ppa.launchpad.net/wii.sceners.linux/wiithon/ubuntu karmic main # 停用升級至 natty

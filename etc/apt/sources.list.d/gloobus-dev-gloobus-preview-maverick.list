@@ -1,1 +1,1 @@
-deb http://ppa.launchpad.net/gloobus-dev/gloobus-preview/ubuntu maverick main
+# deb http://ppa.launchpad.net/gloobus-dev/gloobus-preview/ubuntu natty main # 停用升級至 natty

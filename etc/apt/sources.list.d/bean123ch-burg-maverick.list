@@ -1,1 +1,1 @@
-deb http://ppa.launchpad.net/bean123ch/burg/ubuntu maverick main
+# deb http://ppa.launchpad.net/bean123ch/burg/ubuntu natty main # 停用升級至 natty

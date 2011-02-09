@@ -1,1 +1,1 @@
-deb http://ppa.launchpad.net/osd-lyrics/ppa/ubuntu maverick main
+# deb http://ppa.launchpad.net/osd-lyrics/ppa/ubuntu natty main # 停用升級至 natty

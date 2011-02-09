@@ -1,2 +1,2 @@
-deb http://ppa.launchpad.net/bikooo/glippy/ubuntu maverick main
-deb-src http://ppa.launchpad.net/bikooo/glippy/ubuntu maverick main
+# deb http://ppa.launchpad.net/bikooo/glippy/ubuntu natty main # 停用升級至 natty
+# deb-src http://ppa.launchpad.net/bikooo/glippy/ubuntu natty main # 停用升級至 natty

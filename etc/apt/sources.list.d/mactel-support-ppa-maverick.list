@@ -1,1 +1,1 @@
-deb http://ppa.launchpad.net/mactel-support/ppa/ubuntu maverick main
+# deb http://ppa.launchpad.net/mactel-support/ppa/ubuntu natty main # 停用升級至 natty

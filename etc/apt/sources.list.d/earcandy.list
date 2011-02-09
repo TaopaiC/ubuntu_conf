@@ -1,1 +1,1 @@
-deb http://ppa.launchpad.net/flimm/ppa/ubuntu lucid main
+# deb http://ppa.launchpad.net/flimm/ppa/ubuntu lucid main # 停用升級至 natty

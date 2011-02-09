@@ -1,1 +1,1 @@
-deb http://ppa.launchpad.net/pcf/miro-releases/ubuntu lucid main
+# deb http://ppa.launchpad.net/pcf/miro-releases/ubuntu lucid main # 停用升級至 natty

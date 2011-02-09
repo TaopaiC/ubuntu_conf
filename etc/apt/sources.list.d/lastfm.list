@@ -2,4 +2,4 @@
 # Stable:
 # deb http://apt.last.fm/ debian stable
 # Testing:
-deb http://apt.last.fm/ debian testing
+# deb http://apt.last.fm/ debian testing # 停用升級至 natty

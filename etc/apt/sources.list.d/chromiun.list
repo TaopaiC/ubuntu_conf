@@ -1,2 +1,2 @@
 # sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 4E5E17B5
-deb http://ppa.launchpad.net/chromium-daily/ppa/ubuntu maverick main #chromium-browser
+deb http://ppa.launchpad.net/chromium-daily/ppa/ubuntu natty main #chromium-browser
