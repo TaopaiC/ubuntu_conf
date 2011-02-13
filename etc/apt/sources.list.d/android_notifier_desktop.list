@@ -1,1 +1,1 @@
-# deb http://android-notifier-desktop.googlecode.com/svn/deb-repo stable main # 停用升級至 natty
+deb http://android-notifier.googlecode.com/svn/repos/deb-repo stable main
