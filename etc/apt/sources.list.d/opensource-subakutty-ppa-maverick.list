@@ -1,1 +1,1 @@
-deb http://ppa.launchpad.net/opensource-subakutty/ppa/ubuntu maverick main
+# deb http://ppa.launchpad.net/opensource-subakutty/ppa/ubuntu natty main # disabled on upgrade to natty
