@@ -1,2 +1,2 @@
 # sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 4E5E17B5
-deb http://ppa.launchpad.net/chromium-daily/ppa/ubuntu natty main
+# deb http://ppa.launchpad.net/chromium-daily/ppa/ubuntu oneiric main # disabled on upgrade to oneiric

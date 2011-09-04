@@ -1,1 +1,1 @@
-deb http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu natty main
+# deb http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu oneiric main # disabled on upgrade to oneiric

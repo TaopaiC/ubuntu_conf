@@ -1,1 +1,1 @@
-deb http://android-notifier.googlecode.com/svn/repos/deb-repo stable main
+# deb http://android-notifier.googlecode.com/svn/repos/deb-repo stable main # disabled on upgrade to oneiric
