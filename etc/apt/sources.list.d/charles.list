@@ -1,0 +1,2 @@
+# wget -q -O - http://www.charlesproxy.com/packages/apt/PublicKey | sudo apt-key add -
+deb http://www.charlesproxy.com/packages/apt/ charles-proxy main
